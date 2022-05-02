@@ -1,0 +1,38 @@
+.game-container{
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 110px 110px 110px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: green;
+    font-size: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.turn-tracker{
+    width: 75%;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    justify-self: center;
+    padding: 10px;
+    align-items: center;
+}
+
